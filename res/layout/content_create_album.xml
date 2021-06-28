@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/createal"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:insetBottom="6dp"
+        android:onClick="creator"
+        android:text="@string/create_album"
+        android:translationY="75dp" />
+
+    <EditText
+        android:id="@+id/newAlbumName"
+        android:layout_width="295dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/new_album_hint"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:insetBottom="6dp"
+        android:onClick="cancel"
+        android:text="@string/cancel"
+        android:translationY="120dp" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">AndroidPhotos55</string>
+    <string name="album_title">Your Albums</string>
+    <string name="open_album">Open</string>
+    <string name="create_album">Create Album</string>
+    <string name="rename_album">Rename Album</string>
+    <string name="delete_album">Delete Album</string>
+    <string name="search_photos">Search Photos</string>
+    <string name="title_activity_make_album">Create a New Album</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="new_album_hint">Enter the new album name</string>
+    <string name="album_creator">Album Creator</string>
+    <string name="title_activity_create_album">Create Album</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="none">None</string>
+
+    <string name="title_activity_remove_album">Remove Album</string>
+    <string name="delete_confirmation">Are you sure you want to delete the following?</string>
+    <string name="delete_album_name">Album Name:</string>
+    <string name="delete_album_num">Number of Photos:</string>
+    <string name="confirm_delete">Delete</string>
+
+    <string name="title_activity_rename_album">Rename Album</string>
+    <string name="rename_button">Rename</string>
+
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="display">Display</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="move_photo">Move Photo</string>
+    <string name="return_button">Return</string>
+    <string name="delete_photo_name">Photo Name:</string>
+
+
+    <string name="title_activity_display_photo">Display Photo</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="delete_tag">Delete Tag</string>
+
+    <string name="delete_tag_name">Tag Name</string>
+
+    <string name="title_activity_add_tag">Add Tag</string>
+    <string-array name="tag_choices">
+        <item>person</item>
+        <item>location</item>
+    </string-array>
+    <string name="tag_value_input">Enter value of Tag</string>
+    <string name="create_tag">Create Tag</string>
+
+    <string name="title_activity_remove_photo">RemovePhoto</string>
+
+    <string name="title_activity_search_photo">Search Photo</string>
+    <string name="search_by_people">Search By People</string>
+    <string name="search_people_hint">Enter First Tag</string>
+    <string name="search_by_location">Search By Location</string>
+    <string name="search_location_hint">Enter Second Tag</string>
+    <string name="search_by_both">Search</string>
+
+    <string-array name="search_choices">
+        <item>None</item>
+        <item>Or</item>
+        <item>And</item>
+    </string-array>
+    <string-array name="search">
+        <item>person</item>
+        <item>location</item>
+    </string-array>
+
+    <string name="title_activity_delete_tag">DeleteTag</string>
+
+    <string name="title_activity_move_photo">MovePhoto</string>
+    <string name="move_question">Which album would you like to move this photo to?</string>
+    <string name="move_confirm">Move</string>
+</resources>
